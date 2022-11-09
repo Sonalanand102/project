@@ -42,7 +42,7 @@
 .menu ul li a{
     
     text-decoration: none;
-    color : black;
+    color : #111;
 }
 
 .menu ul li a:hover{
@@ -112,10 +112,316 @@
     
 }
 
+.our-experience{
+    text-align : center;
+    font-family: 'Lexend', sans-serif;
+
+}
+
+.our-experience h1{
+    margin-top : 50px;
+    margin-bottom : 10px;
+}
+
+.our-experience div{
+    margin-bottom : 30px;
+}
+
+.experience-cards{
+    display : flex;
+    justify-content : space-around;
+    padding-left : 200px;
+    padding-right : 200px;
+}
+
+.experience-cards div img{
+    height: 350px;
+
+}
+
+.our-capabilities{
+    text-align : center;
+    margin-bottom : 50px;
+}
+
+#capabilities-title{
+    font-size : 20px;
+    color : #F82B33;
+    margin-bottom : 10px;
+    font-family: 'Lexend', sans-serif;
+}
+
+#capabilities-text{
+    margin-bottom : 30px;
+    font-family: 'Lexend', sans-serif;
+}
+
+.capabilities-cards{
+    display : flex;
+    justify-content : space-around;
+    padding-left : 220px;
+    padding-right : 220px;
+}
+
+
+#payment-title, #review-title, #communication-title{
+    margin-top : 10px;
+    font-size : 20px;
+    font-family: 'Lexend', sans-serif;
+}
+
+
+#payment-text,#review-text ,#communication-text{
+    margin-top : 16px;
+    padding-left : 20px;
+    padding-right : 20px;
+}
+
+
+.capabilities-cards div img {
+    margin-top : 30px;
+    height : 80px;
+    width : 80px;
+}
+.capabilities-card-review{
+    background-color : #111;
+    border : 2px solid #111;
+    color : white;
+    height : 250px;
+    border-radius : 5px;
+}
+
+.capabilities-card-payment{
+    border : 2px solid #111;
+    height : 250px;
+    border-radius : 5px;
+
+}
+.capabilities-card-communication{
+    border : 2px solid #111;
+    height : 250px;
+    border-radius : 5px;
+
+}
+
+
+.motivation-card{
+    background-color : #111;
+    margin-bottom : 50px;
+    color : #fff;
+    display : flex;
+    justify-content : space-around;
+    padding-left : 100px;
+    padding-right : 100px;
+    padding-top : 50px;
+    padding-bottom : 50px;
+    font-family: 'Lexend', sans-serif;
+
+}
+
+.motivation-card img {
+    height : 250px;
+}
+
+.motivation-card div{
+    /* width : 50vw; */
+    margin-top : 75px;
+}
+
+.how-we-do{
+    text-align : center;
+    font-family: 'Lexend', sans-serif;
+    margin-bottom : 50px;
+}
+
+.how-we-do-cards{
+    display: flex;
+    padding-left : 200px;
+    padding-right : 200px;
+    padding-top : 20px;
+    padding-bottom : 20px;
+}
+
+.how-we-do-card-title{
+    font-weight : bold;
+    margin-bottom : 10px;
+}
+
+.how-we-do-card-text{
+    font-size : 14px;
+}
+
+.how-we-do-card-1{
+    margin-right: 50px;
+}
+
+.how-we-do-card-2{
+    margin-left: 50px;
+}
+.how-we-do-cards img{
+    height : 80px;
+    margin-bottom : 10px;
+}
+
+#how-we-do-title{
+    color : #F72E30;
+    font-size : 36px;
+    margin-bottom : 10px;
+}
+
+#how-we-do-text{
+    margin-bottom : 30px;
+}
+
+.service-section{
+    text-align : center;
+    font-family : 'Lexend', sans-serif;
+}
+
+.service-section-title{
+    color : #F72E30;
+    font-size : 24px;
+    margin-bottom : 10px;
+}
+
+.service-section-text{
+    margin-bottom : 30px;
+}
+
+.service-section-cards{
+    display : flex;
+    justify-content : space-around;
+    padding-bottom : 50px;
+    margin-left : 250px;
+    margin-right : 250px;
+}
+
+.service-section-cards div img{
+    height : 250px;
+    width : 250px;
+}
+
+.cover_img{
+    height : 80vh;
+    background-image : url('../images/colleagues-working-together-call-center-office.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align : center;
+    color : white;
+    font-family : 'Lexend', sans-serif;
+    margin-bottom : 50px;
+}
+
+.cover_img h1{
+    padding-top : 40vh;
+}
+
+.home{
+    background-color : #f0f0f0;
+}
+
+.get-in-touch{
+    text-align : center;
+    font-family : 'Lexend', sans-serif;
+}
+
+.get-in-touch-title{
+    margin-bottom : 10px;
+}
+
+.get-in-touch-text{
+    margin-bottom : 30px;
+}
+
+.contact-details{
+    display : flex;
+    justify-content : space-around;
+    background-color : #fff;
+    padding-top : 20px;
+    padding-bottom : 20px;
+    margin-left : 250px;
+    margin-right : 250px;
+}
+
+.contact-details div img{
+    height : 20px;
+}
+
+.contact-address, .contact-phone, .contact-email{
+    display : flex;
+}
+
+.form {
+    margin-top : 50px;
+    padding-bottom : 50px;
+}
+
+.contactus-button{
+    text-align : center;
+    
+}
+
+form{
+    background-color : white;
+    margin-left : 250px;
+    margin-right : 250px;
+    padding : 30px;
+}
+.contact-form{
+    display : flex;
+    justify-content : space-between;
+    margin-bottom : 20px;
+    font-family : 'Lexend', sans-serif;
+    
+}
+
+.contact-form-title{
+    font-size : 24px;
+    margin-bottom : 20px;
+}
+
+
+
+input{
+    width : 24vw;
+    height : 5vh;
+    border : 2px solid #f0f0f0;
+    border-radius : 5px;
+    background-color : #f0f0f0;
+    margin-bottom : 20px;
+    margin-top : 10px;
+}
+
+textarea{
+    padding : 10px;
+    width : 24vw;
+    height : 194px;
+    border : 2px solid #f0f0f0;
+    border-radius : 5px;
+    background-color : #f0f0f0;
+    margin-top : 10px;
+}
+
+.message-section{
+    margin-top : 50px;
+}
+
+.contactus-button button{
+    color : white;
+    background-color : #F72E30;
+    padding-left : 30px;
+    padding-right : 30px;
+    padding-top : 10px;
+    padding-bottom : 10px;
+    border : none;
+    border-radius : 5px;
+}
+
 /* footer section */
 .footer{
     display : flex;
-    background : #000;
+    background : #111;
     color : white;
     justify-content : space-around;
     padding-top : 48px;
