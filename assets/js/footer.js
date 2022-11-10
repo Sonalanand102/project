@@ -35,15 +35,16 @@ document.write(`
         <div class="contact-info">
             <h3>Contact Info</h3>
             <div class="email">
-                <i class="fa-solid fa-house"></i>
+                <img src = "assets/images/Group 70843.png" >
                 info@auxibleindia.com
             </div>
             <div class="phone">
-                <i class="fa-solid fa-house"></i>
+                <img src = "assets/images/phone.png" >
                 +91 7355751042 
             </div>
             <div class="address">
-                <i class="fa fa-house"></i>
+                <img src="assets/images/Path 27.png">
+                
                 Basement, H- 224 i, Sector 63,
                 Noida Uttar Pradesh 201301
             </div>
