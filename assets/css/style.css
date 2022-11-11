@@ -80,11 +80,12 @@ font-family: 'Poppins', sans-serif; */
 
 .background_image_crousel{
     color : white;
-    height : 50vh;
+    height : 60vh;
     background-image : url("../images/man-recording-studio-music-production.png"),url("../images/replicate-prediction-t7ja4qpvlnb3tidbmqsoufghra.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom : 50px;
 }
 
 .img-content{
@@ -99,7 +100,7 @@ font-family: 'Poppins', sans-serif; */
 
 .img-content-text{
     text-align : center;
-    padding-top : 25vh;
+    padding-top : 30vh;
 }
 
 .img-content div{
@@ -682,6 +683,90 @@ font-family: 'Poppins', sans-serif; */
 .service-section-cards div img{
     height : 250px;
     width : 280px;
+}
+
+.subsectors{
+    margin-left : 100px;
+    margin-right : 100px;
+}
+
+.subsector{
+    display : flex;
+    justify-content : space-between;
+    margin-bottom : 50px;
+}
+
+.subsector-img img{
+    height : 60vh;
+    width : 42vw;
+}
+
+.subsector-leisure-desc, .subsector-corporate-desc{
+    margin-left : 100px;
+}
+
+.subsector-entertainment-desc, .subsector-hospitality-desc{
+    margin-right : 100px;
+}
+
+.subsector-leisure-desc{
+    margin-top : 50px;
+} 
+
+.subsector-corporate-desc{
+    margin-top : -10px;
+
+}
+.subsector-entertainment-desc{
+    margin-top : 40px;
+
+}
+.subsector-hospitality-desc{
+    margin-top : 30px;
+}
+
+.see-more-sector{
+    padding-bottom : 80px;
+    text-align : center;
+}
+
+.btn{
+    border : 2px solid black;
+    padding-left : 48px;
+    padding-right : 48px;
+    padding-top : 10px;
+    padding-bottom : 10px;
+    border-radius : 5px;
+}
+
+.btn:hover {
+    background-color: #F72E30;
+    border : none;  
+}
+
+
+.btn a{
+    text-decoration : none;
+    color : black;
+    font-family :'Montserrat', sans-serif;
+    /* font-size : 16px; */
+}
+
+.subsector-title{
+    font-family : 'Lexend', sans-serif;
+    font-size : 30px;
+    color : #F72E30;
+    font-weight : bold;
+    margin-top : 30px;
+    margin-bottom : 30px;
+}
+
+.subsector-text{
+    font-family :'Montserrat', sans-serif;
+    font-weight : regular;
+    margin-bottom : 50px;
+    word-spacing : 1px;
+    line-height : 1.5;
 }
 
 .cover_img{
