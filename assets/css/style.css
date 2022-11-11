@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;300;700&family=Montserrat:wght@500;700&family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;300;700&family=Montserrat:wght@500;700&family=Poppins:wght@300;400;500;600&family=Roboto&display=swap');
 /* font-family: 'Lexend', sans-serif;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Poppins', sans-serif; */
@@ -289,18 +289,18 @@ font-family: 'Poppins', sans-serif; */
 
 
 
-.key-sector-desc, .our-brand-desc, .our-projects-desc{
+.key-sector-desc, .our-brand-desc, .our-projects-desc, .resources-desc{
     text-align : center;
 }
 
-.key-sector-title, .our-brand-title, .our-projects-title{
+.key-sector-title, .our-brand-title, .our-projects-title, .resources-title{
     font-family: 'Poppins-bold', sans-serif;
     font-size : 32px;
     color : #F72E30;
     margin-bottom : 10px;
 }
 
-.key-sector-text, .our-brand-text, .our-projects-text{
+.key-sector-text, .our-brand-text, .our-projects-text, .resources-text{
     font-family: 'Poppins-regular', sans-serif;
     font-size : 20px;
     margin-bottom : 50px;
@@ -490,6 +490,136 @@ font-family: 'Poppins', sans-serif; */
 .testimonial-card img{
     width : 90vw;
     
+}
+
+.blogs{
+    display : flex;
+    justify-content : space-between;
+    margin-left : 100px;
+    margin-right : 100px;
+    margin-bottom : 100px;
+}
+
+.blog-section-1{
+    background-color : white;
+    text-align : center;
+    margin-right : 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.blog-1-desc{
+    margin-top : 20px;
+    margin-bottom : 20px;
+}
+
+.blog-1-title, .blog-title{
+    color : #F72E30;
+    font-size : 24px;
+    font-weight : bold;
+    font-family : 'Montserrat' , sans-serif;
+    margin-bottom : 8px;
+}
+
+.blog-1-text{
+    font-size : 24px;
+    word-spacing : 2px;
+    line-height : 1.5;
+    color : #707070;
+    font-family : 'Montserrat' , sans-serif;
+    font-weight : regular;
+}
+
+.blog-1-img img{
+    height : 60vh;
+    width : 50vw;
+}
+
+.blog-2{
+    margin-bottom : 50px;
+}
+
+.blog-2, .blog-3{
+    display : flex;
+    background-color : white;  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);            
+}
+
+.blog-img img{
+    height : 37vh;
+
+}
+
+.blog-desc{
+    margin-top : 12vh;
+    margin-left : 10px;
+    margin-right : 10px;
+}
+
+.blog-text{
+    font-size : 18px;
+    word-spacing : 1px;
+    line-height : 1.2;
+    color : #707070;
+    font-family : 'Montserrat' , sans-serif;
+    font-weight : regular;
+}
+
+.blog-cards{
+    padding-bottom : 50px;
+    display : flex;
+    justify-content : space-between;
+    margin-left : 200px;
+    margin-right : 200px;
+
+}
+
+.blog-card{
+    background-color : white;
+    width : 320;
+    border-radius : 5px;
+    padding : 10px;
+}
+.blog-card-img img{
+    width : 320px;
+}
+
+.blog-card-posted-date span{
+    color : #707070;
+    font-family : 'Roboto', sans-serif;
+    font-size : 16px;
+}
+.blog-card-posted-date img{
+    margin-top : 10px;
+    margin-right : 5px;
+    height : 16px;
+    width : 16px;
+    padding-top : 8px;
+}
+
+.blog-card-title{
+    font-size : 18px;
+    font-weight : bold;
+    font-family : 'Roboto', sans-serif;
+    margin-top : 10px;
+}
+
+.bolg-card-text{
+    font-family : 'Roboto', sans-serif;
+    margin-top : 5px;
+    color : #707070;
+    font-size : 14px;
+    margin-bottom : 20px;
+}
+.blog-card-btn a{
+    text-decoration : none;
+    color : #FF194F;
+    font-family : 'Roboto', sans-serif;
+    font-weight : bold;
+}
+
+.blog-card-btn img{
+    margin-left : 20px;
+    height : 12px;
 }
 
 .our-experience{
