@@ -43,8 +43,7 @@ document.write(`
                 +91 7355751042 
             </div>
             <div class="address">
-                <img src="assets/images/Path 27.png">
-                
+                <img src = "assets/images/Path 27.png" >
                 Basement, H- 224 i, Sector 63,
                 Noida Uttar Pradesh 201301
             </div>
@@ -52,4 +51,7 @@ document.write(`
     </div>
 </div>
 <!-- Footer Section ends -->
+<script src="script.js"></script>
+</body>
+</html>
 `);
