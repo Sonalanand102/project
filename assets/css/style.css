@@ -299,6 +299,7 @@ font-family: 'Poppins', sans-serif; */
     font-size : 32px;
     color : #F72E30;
     margin-bottom : 10px;
+    font-weight : bold;
 }
 
 .key-sector-text, .our-brand-text, .our-projects-text, .resources-text{
