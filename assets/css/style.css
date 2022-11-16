@@ -8,6 +8,17 @@ font-family: 'Poppins', sans-serif; */
     padding : 0;
 }
 
+.hamburger-icon i{
+    display : none;
+}
+
+.cross-icon{
+    display : none;
+}
+
+#click {
+    display : none;
+}
 /* Navigation starts */
 .navbar{
     height : 86px;
@@ -16,29 +27,28 @@ font-family: 'Poppins', sans-serif; */
     padding-left : 150px;
     padding-right : 150px;
     opcity : 0.9;
+    align-items : center;
     /* background-color : red; */
     
 }
 
 .logo img{
-    margin-top : 16px;
     width : 120px;
     height : 50px;
 }
 
 .menu{
     font-size : 18px;
-    padding-top : 32px;
     font-family: 'Montserrat-bold', sans-serif;
 }
 
 .menu ul{
     display : flex;
+    justify-content : center;
     list-style-type : none;
 }
 
 .menu ul li{
-    display : flex;
     padding-left : 50px;
 }
 
@@ -65,6 +75,7 @@ font-family: 'Poppins', sans-serif; */
     padding-bottom : 5px;
     background-color : #F82B33;
     color : white!important;
+    border-radius : 2px;
 }
 
 /* Navigation ends */
@@ -77,6 +88,7 @@ font-family: 'Poppins', sans-serif; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    /* align-items : center; */
 }
 
 .background_image_crousel{
@@ -102,6 +114,8 @@ font-family: 'Poppins', sans-serif; */
 .img-content-text{
     text-align : center;
     padding-top : 30vh;
+    font-family : 'Lexend-bold', sans-serif;
+    font-weight : bold;
 }
 
 .img-content div{
@@ -217,6 +231,7 @@ font-family: 'Poppins', sans-serif; */
     width : 310px;
     background-color : white;
     margin : 20px;
+    padding : 10px;
     /* border : 2px solid red; */
     border-radius : 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -410,7 +425,7 @@ font-family: 'Poppins', sans-serif; */
     justify-content : space-around;
     margin-left : 200px;
     margin-right : 200px;
-    margin-bottom : 50px;
+    margin-bottom : 30px;
     text-align : center;
 }
 
@@ -424,6 +439,7 @@ font-family: 'Poppins', sans-serif; */
     padding-bottom : 20px;
     border-radius : 10px;
     background-color : white;
+    margin-bottom : 50px;
 }
 .our-brand-image img{
     height : 250px;
@@ -449,52 +465,71 @@ font-family: 'Poppins', sans-serif; */
     color : #000;
 }
 
-/* .swiper {
-  width: 600px;
-  height: 300px;
-} */
+.our-projects-subsection {
+  width: 100vw;
+  height: 250px;
+}
 
+.swiper-button-prev{
+    /* left: 80px !important; */
+}
 .our-project-cards{
-    display : flex;
-    justify-content : space-between;
-}
-
-.our-project-card{
-    margin-left : 20px;
-    margin-right : 20px;
-}
-.our-project-card img{
-    height : 200px;
-    width : 200px;
-}
-
-.left-scroll-project img, .right-scroll-project img{
-    height : 36px;
-    width : 36px;
-    margin-top : 85px;
-}
-.our-projects-subsection{
-    background-image : url("../images/blue-abstract-gradient-wave-wallpaper (1).png");
+    background-image : url("../images/Group 70888.png");
     background-repeat: no-repeat;
     background-size : 100vw 100px;
-    background-position-y : center;
+    background-position-y : 75px;
     display : flex;
-    justify-content : space-between;
-    padding-left : 100px;
-    padding-right : 100px;
-    margin-bottom : 80px;
+    justify-content : center;    
 }
 
+.our-project-card img{
+    width : 200px;
+    height : 200px;
+    margin : 10px 50px;
+}
+
+.quote{ 
+    font-size : 50px;
+    margin-bottom : 50px;
+}
+
+.testimonial-cards{
+    display : flex;
+    justify-content : center;
+    padding-bottom : 80px; 
+}
 .testimonial-card{
     display : flex;
     justify-content : center;
-    padding-bottom : 80px;
+    /* margin-left : 50px;
+    margin-right : 50px; */
+    background-color : #F4232D;
+    padding-left : 10px;
+    padding-top : 1px;
+    padding-bottom : 1px;
+    color : #fff;
+    font-size : 20px;
+    font-family : 'Poppins', sans-serif;
+    width : 50vw;
+}
+
+.testimonial-swipper{
+    height : 361px;
+    width : 80vw;
+    margin-bottom : 80px;
+}
+.testimonial-text{
     margin-left : 50px;
     margin-right : 50px;
+    margin-top : 50px;
 }
-.testimonial-card img{
-    width : 90vw;
-    
+
+.testimonial-statement{
+    margin-bottom : 50px;
+}
+.testimonial-img img{
+    width : 300px;
+    height : 360;
 }
 
 .blogs{
@@ -509,7 +544,7 @@ font-family: 'Poppins', sans-serif; */
     background-color : white;
     text-align : center;
     margin-right : 50px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 .blog-1-desc{
@@ -546,7 +581,7 @@ font-family: 'Poppins', sans-serif; */
 .blog-2, .blog-3{
     display : flex;
     background-color : white;  
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);            
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);             */
 }
 
 .blog-img img{
@@ -813,7 +848,18 @@ font-family: 'Poppins', sans-serif; */
 .our-experience{
     text-align : center;
     font-family: 'Lexend', sans-serif;
-    
+    margin-bottom : 80px;
+}
+
+.our-experience-title{
+    font-size : 36px;
+    font-weight : bold;
+    margin-bottom : 10px;
+}
+
+.our-experience-text{
+    font-size : 18px;
+    margin-bottom : 50px;
 }
 
 .our-solution-gallery{
@@ -829,14 +875,8 @@ font-family: 'Poppins', sans-serif; */
     /* height : 450px; */
 }
 
-.our-experience h1{
-    margin-top : 50px;
-    margin-bottom : 10px;
-}
 
-.our-experience div{
-    margin-bottom : 30px;
-}
+
 
 .experience-cards{
     display : flex;
@@ -846,52 +886,58 @@ font-family: 'Poppins', sans-serif; */
 }
 
 .experience-cards div img{
-    height: 350px;
-   /* width: 350px; */
+    /* height: 350px; */
+   width: 400px;
+   margin-right : 20px;
 
 }
 
 .our-capabilities{
     text-align : center;
-    margin-bottom : 50px;
+    margin-bottom : 80px;
 }
 
 #capabilities-title{
-    font-size : 20px;
+    font-size : 24px;
     color : #F82B33;
     margin-bottom : 10px;
     font-family: 'Lexend', sans-serif;
+    font-weight : bold;
 }
 
 #capabilities-text{
-    margin-bottom : 30px;
+    font-size : 20px;
+    margin-bottom : 50px;
     font-family: 'Lexend', sans-serif;
 }
 
 .capabilities-cards{
     display : flex;
-    justify-content : space-around;
-    padding-left : 220px;
-    padding-right : 220px;
+    justify-content : space-between;
+    margin-left : 200px;
+    margin-right : 200px;
 }
 
 
 #payment-title, #review-title, #communication-title{
-    margin-top : 10px;
-    font-size : 20px;
-    font-family: 'Lexend', sans-serif;
+    margin-top : 20px;
+    font-size : 24px;
+    font-family: 'Lexend-bold', sans-serif;
 }
 
 
 #payment-text,#review-text ,#communication-text{
+    font-family: 'Lexend-light', sans-serif;
+    font-size : 14px;
     margin-top : 16px;
-    padding-left : 20px;
-    padding-right : 20px;
+    padding-left : 25px;
+    padding-right : 25px;
 }
 
 
 .capabilities-cards div img {
-    margin-top : 30px;
+    margin-top : 50px;
+    margin-top : 50px;
     height : 80px;
     width : 80px;
 }
@@ -899,23 +945,29 @@ font-family: 'Poppins', sans-serif; */
     background-color : #111;
     border : 2px solid #111;
     color : white;
-    /* height : 300px; */
-    width : 20vw;
-    border-radius : 5px;
+    width : 23vw;
+    border-radius : 10px;
+    padding-top : 20px;
+    padding-bottom : 20px;
+    margin-right : 20px;
 }
 
 .capabilities-card-payment{
     border : 2px solid #111;
-    height : 250px;
-    width : 20vw;
-    border-radius : 5px;
+    width : 23vw;
+    border-radius : 10px;
+    padding-top : 20px;
+    padding-bottom : 20px;
+    margin-right : 20px;
 
 }
 .capabilities-card-communication{
     border : 2px solid #111;
-    height : 250px;
-    width : 20vw;
-    border-radius : 5px;
+    width : 23vw;
+    border-radius : 10px;
+    padding-top : 20px;
+    padding-bottom : 20px;
+    margin-right : 20px;
 
 }
 
@@ -925,57 +977,78 @@ font-family: 'Poppins', sans-serif; */
     margin-bottom : 50px;
     color : #fff;
     display : flex;
-    justify-content : space-around;
+    justify-content : space-between;
     padding-left : 100px;
     padding-right : 100px;
-    padding-top : 50px;
-    padding-bottom : 50px;
+    padding-top : 30px;
+    padding-bottom : 30px;
     font-family: 'Lexend', sans-serif;
 
 }
 
 .motivation-card img {
-    height : 250px;
+    height : 350px;
+
 }
 
 .motivation-card div{
     /* width : 50vw; */
-    margin-top : 75px;
+    font-size : 18px;
+    margin-top : 85px;
+    margin-right : 200px;
+    word-spacing : 2px;
+    line-height : 1.6;
 }
 
 .how-we-do{
     text-align : center;
-    font-family: 'Lexend', sans-serif;
+    font-family: 'Lexend-bold', sans-serif;
     margin-bottom : 50px;
+    
+
+}
+
+#how-we-do-title{
+    font-weight : bold;
+
+}
+
+#how-we-do-text{
+    font-size : 18px;
+    word-spacing : 1px;
+    line-height : 1.2;
 }
 
 .how-we-do-cards{
     display: flex;
-    padding-left : 200px;
-    padding-right : 200px;
+    justify-content : space-between;
+    margin-left : 200px;
+    margin-right : 200px;
     padding-top : 20px;
     padding-bottom : 20px;
 }
 
 .how-we-do-card-title{
+    font-size : 18px;
     font-weight : bold;
-    margin-bottom : 10px;
+    margin-bottom : 16px;
 }
 
 .how-we-do-card-text{
-    font-size : 14px;
+    font-size : 16px;
+    word-spacing : 2px;
+    line-height : 1.4;
+    font-weight : thinner;
 }
 
-.how-we-do-card-1{
-    margin-right: 50px;
+.how-we-do-card-1, .how-we-do-card-2, .how-we-do-card-3, .how-we-do-card-4{
+    width : 33vw;
 }
 
-.how-we-do-card-2{
-    margin-left: 50px;
-}
 .how-we-do-cards img{
-    height : 80px;
-    margin-bottom : 10px;
+    height : 120px;
+    width : 120px;
+    margin-bottom : 20px;
 }
 
 #how-we-do-title{
@@ -995,22 +1068,27 @@ font-family: 'Poppins', sans-serif; */
 
 .service-section-title{
     color : #F72E30;
-    font-size : 24px;
+    font-size : 36px;
+    font-weight : bold;
     margin-bottom : 10px;
+
 }
 
 .service-section-text{
     margin-bottom : 30px;
+    font-size : 24px;
 }
 
 .service-section-cards{
     display : flex;
-    justify-content : space-around;
+    justify-content : space-between;
     padding-bottom : 50px;
     margin-left : 250px;
     margin-right : 250px;
 }
-
+.service-section-img{
+    margin-right : 30px;
+}
 .service-section-cards div img{
     height : 250px;
     width : 280px;
@@ -1021,7 +1099,7 @@ font-family: 'Poppins', sans-serif; */
     margin-right : 100px;
 }
 
-.subsector{
+.subsector-entertainment, .subsector-corporate, .subsector-hospitality, .subsector-leisure{
     display : flex;
     justify-content : space-between;
     margin-bottom : 50px;
@@ -1061,7 +1139,7 @@ font-family: 'Poppins', sans-serif; */
     text-align : center;
 }
 
-.btn{
+.btn, .our-solution-btn{
     border : 2px solid black;
     padding-left : 48px;
     padding-right : 48px;
@@ -1070,13 +1148,13 @@ font-family: 'Poppins', sans-serif; */
     border-radius : 5px;
 }
 
-.btn:hover {
+.btn:hover, .our-solution-btn:hover {
     background-color: #F72E30;
     border : none;  
 }
 
 
-.btn a{
+.btn a, .our-solution-btn a{
     text-decoration : none;
     color : black;
     font-family :'Montserrat', sans-serif;
@@ -1102,7 +1180,7 @@ font-family: 'Poppins', sans-serif; */
 
 .cover_img{
     height : 80vh;
-    background-image : url('../images/colleagues-working-together-call-center-office.png');
+    background-image : url("../images/man-recording-studio-music-production.png"),url('../images/colleagues-working-together-call-center-office.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1345,109 +1423,50 @@ textarea{
     font-size : 20px;
     color : #707070;
 }
-@media screen and (max-width: 1250px){
+
+@media screen and (max-width: 1260px) {
+    .menu ul{
+        position : fixed;
+        top : 86px;
+        left : -100%;
+        height : 100vh;
+        width : 100vw;
+        background : #111;
+        display : block;
+        text-align : center;  
+        transition : all 0.3s ease;
+    }
+
+    #click:checked ~ ul{
+        left : 0%;
+    }
+
+    .menu ul li {
+        padding-left: 0px;
+    }
+    .menu ul li{
+        margin : 40px 0px;
+    }
+
+    .menu ul li a{
+        color : white;
+        font-size : 20px;
+        /* display : block; */
+    }
+
     .navbar{
         padding-left : 100px;
-        padding-right : 100px;   
-    }
-    
-    .menu{
-        font-size : 18px;
+        padding-right : 50px;   
     }
 
-    .menu ul li{
-        padding-left : 35px;
+    .hamburger-icon i{
+        display : block;
+        font-size : 24px;
+        color : #111;
+        cursor : pointer;
     }
 
-    .img-content{
-        width : 40vw;
-        padding-left : 100px;
+    #click:checked ~ .hamburger-icon i:before{
+        content : '\f00d';
     }
-
-    
-    .what-we-do{
-        margin-left : 100px;
-        margin-right : 80px;
-    }
-
-    .what-we-do-img img{
-        height : 65vh;
-        width : 40vw;
-    }
-
-    .service-cards{
-        margin-left : 100px;
-        margin-right : 100px;
-    }
-
-    .key-subsector-text{
-        line-height : 1.3;
-    }
-
-    .key-subsector-img img{
-        height : 80vh;
-    }
-
-
-    .our-brand-cards{
-        margin-left : 100px;
-        margin-right : 100px;
-    }
-
-    .our-brand-card{
-        margin : 10px;
-    }
-
-    .our-project-card img{
-        height : 160px;
-        width : 160px;
-    }
-
-    .left-scroll-project img, .right-scroll-project img{
-        margin-top : 65px;
-    }
-    .our-projects-subsection{
-        background-image : url("../images/blue-abstract-gradient-wave-wallpaper (1).png");
-        background-repeat: no-repeat;
-        background-size : 100vw 100px;
-        background-position-y : center;
-        display : flex;
-        justify-content : space-between;
-        padding-left : 100px;
-        padding-right : 100px;
-        margin-bottom : 80px;
-    }
-
-
-.blog-2{
-    margin-bottom : 100px;
-}
-
-.blog-desc{
-    margin-top : 8vh;
-}
-
-.blog-cards{
-    padding-bottom : 80px;
-    margin-left : 100px;
-    margin-right : 100px;
-}
-
-.blog-card{
-    width : 280;
-}
-.blog-card-img img{
-    width : 280px;
-}
-
-.our-solution-gallery{
-    margin-left : 100px;
-    margin-right : 100px;
-    padding-bottom : 80px;
-}
-
-.img img{
-    width : 330px;
-}
-    
-}
+  } 

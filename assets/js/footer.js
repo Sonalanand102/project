@@ -43,7 +43,7 @@ document.write(`
                 +91 7355751042 
             </div>
             <div class="address">
-                <img src = "assets/images/Path 27.png" >
+                <i class="fa-thin fa-location-dot" style="color:#707070;"></i>
                 Basement, H- 224 i, Sector 63,
                 Noida Uttar Pradesh 201301
             </div>
@@ -51,11 +51,14 @@ document.write(`
     </div>
 </div>
 <!-- Footer Section ends -->
+
+<script src="assets/js/script.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
 <script>
 const swiper = new Swiper('.swiper', {
     // Optional parameters
-    direction: 'vertical',
+    direction: 'horizontal',
     loop: true,
   
     // If we need pagination
