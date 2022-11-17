@@ -135,8 +135,8 @@ font-family: 'Poppins', sans-serif; */
     border-radius : 5px;
     padding-top : 10px;
     padding-bottom : 10px;
-    padding-left : 48px;
-    padding-right : 48px;
+    padding-left : 36px;
+    padding-right : 36px;
     font-family: 'Lexend-light', sans-serif;
 }
 
@@ -186,8 +186,8 @@ font-family: 'Poppins', sans-serif; */
     border-radius : 5px;
     padding-top : 10px;
     padding-bottom : 10px;
-    padding-left : 48px;
-    padding-right : 48px;
+    padding-left : 36px;
+    padding-right : 36px;
 }
 
 .what-we-do-img img{
@@ -1141,8 +1141,8 @@ font-family: 'Poppins', sans-serif; */
 
 .btn, .our-solution-btn{
     border : 2px solid black;
-    padding-left : 48px;
-    padding-right : 48px;
+    padding-left : 36px;
+    padding-right : 36px;
     padding-top : 10px;
     padding-bottom : 10px;
     border-radius : 5px;
