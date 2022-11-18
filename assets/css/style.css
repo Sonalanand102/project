@@ -98,7 +98,7 @@ font-family: 'Poppins', sans-serif; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom : 50px;
+    /* margin-bottom : 50px; */
 }
 
 .img-content{
@@ -147,15 +147,36 @@ font-family: 'Poppins', sans-serif; */
     border : none;
 }
 
+
 .what-we-do{
+    
     display : flex;
     justify-content : space-between;
     margin-left : 200px;
     margin-right : 100px;
-    margin-top : 80px;
-    margin-bottom : 80px;
+    padding-top : 80px;
+    padding-bottom : 80px;
+    background-image : url("../images/Group 71359.png");
+    background-repeat: no-repeat;
+    background-size : 100vw 100vh;
+    /* background-position-y : -30vh; */
+
+}
+.section{
+    background-image : url("../images/Group 71368.png");
+    background-repeat: no-repeat;
+    background-size : 100vw 200vh;
+    /* background-position-y : 100vh; */
 }
 
+.section-2{
+    background-image : url("../images/Group 71484.png"),url("../images/gray-abstract-wireframe-technology-background.png"),url("../images/Group 71415.png");
+    background-repeat: no-repeat;
+    background-size : 250px 200px,100vw 130vh,100vw 130vh;
+    background-position : left bottom,left top,left top;
+    background-position-y : 100vh, 0px, 0px;
+    background-position-x : -30px, 0px, 0px;
+}
 .what-we-do-desc{
     width : 40vw;
     margin-top : 100px;
@@ -412,11 +433,18 @@ font-family: 'Poppins', sans-serif; */
     width : 10px;
 }
 
+.brands,.contact-us-page,.sectors{
+    background-image : url("../images/abstract-blue-geometric-shapes-background.png");
+    background-repeat : repeat;
+    background-position: center;
+    background-size: 100vw 150vh;
+    padding-top : 100px;
+}
 .our-brands{
-    background-image : url("../images/Group 70888.png");
+    background-image : url("../images/Group 71418.png"),url("../images/Group 70888.png");
     background-repeat: no-repeat;
-    background-size : 100vw 150px;
-    background-position-y : 270px;
+    background-size : 100vw 80vh,100vw 150px;
+    background-position-y : 0px,270px;
 
 }
 
@@ -846,9 +874,16 @@ font-family: 'Poppins', sans-serif; */
 }
 
 .our-experience{
+    
     text-align : center;
     font-family: 'Lexend', sans-serif;
-    margin-bottom : 80px;
+    padding-bottom : 80px;
+    padding-top : 50px;
+    
+    background-image : url("../images/gray-abstract-wireframe-technology-background.png");
+    background-repeat: no-repeat;
+    background-size : 100vw 130vh;
+    
 }
 
 .our-experience-title{
@@ -974,7 +1009,7 @@ font-family: 'Poppins', sans-serif; */
 
 .motivation-card{
     background-color : #111;
-    margin-bottom : 50px;
+    /* margin-bottom : 50px; */
     color : #fff;
     display : flex;
     justify-content : space-between;
@@ -1000,11 +1035,17 @@ font-family: 'Poppins', sans-serif; */
     line-height : 1.6;
 }
 
+.section-3{
+    background-image : url("../images/abstract-blue-geometric-shapes-background.png");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
 .how-we-do{
     text-align : center;
     font-family: 'Lexend-bold', sans-serif;
     margin-bottom : 50px;
-    
+    padding-top : 50px;
 
 }
 
@@ -1187,16 +1228,16 @@ font-family: 'Poppins', sans-serif; */
     text-align : center;
     color : white;
     font-family : 'Lexend-bold', sans-serif;
-    margin-bottom : 50px;
+    /* margin-bottom : 50px; */
 }
 
 .cover_img h1{
     padding-top : 40vh;
 }
 
-.home{
+/* .home{
     background-color : #f0f0f0;
-}
+} */
 
 .get-in-touch{
     text-align : center;

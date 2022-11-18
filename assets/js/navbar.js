@@ -16,7 +16,7 @@ document.write(`
 <body>
 
 <!-- Navbar Starts-->
-<div class="navbar">
+<nav class="navbar">
 
     <!-- Company Logo -->
     <div class="logo">
@@ -32,18 +32,18 @@ document.write(`
         <i class="fa-solid fa-bars"></i>
     </label>
         <ul>
-            <li class="home-section"><a id="home-section" class="active" onclick="activateMenu()" href="index.html">Home</a></li>
-            <li class="company"><a id="company" onclick="activateMenu()" href="company.html">Company</a></li>
-            <li class="solution"><a id="solution" onclick="activateMenu()" href="solution.html">Solution</a></li>
-            <li class="brand"><a id="brand" href="brand.html">Brand</a></li>
-            <li class="sector"><a id="sector" href="sector.html">Sector</a></li>
-            <li class="resources"><a id="resources" href="resources.html">Resources</a></li>
-            <li class="contactus"><a id="contactus" href="contactUs.html">Contact Us</a></li>
+            <li class="home-section"><a   href="index.html">Home</a></li>
+            <li class="company"><a  href="company.html">Company</a></li>
+            <li class="solution"><a  href="solution.html">Solution</a></li>
+            <li class="brand"><a  href="brand.html">Brand</a></li>
+            <li class="sector"><a  href="sector.html">Sector</a></li>
+            <li class="resources"><a href="resources.html">Resources</a></li>
+            <li class="contactus"><a href="contactUs.html">Contact Us</a></li>
         </ul>
     </div>
 
     
         
     
-</div>
+</nav>
 <!-- Navbar Ends-->`)

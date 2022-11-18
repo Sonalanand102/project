@@ -1,14 +1,8 @@
 
-function activateMenu() {
-    if(getElementById('home-section').className != "active"){
-        getElementById('home-section').className = "active";
-    }else{
-        getElementById('home-section').className = " ";
-    }
-    
-    if(getElementById('company').className != "active"){
-        getElementById('company').className = "active";
-    }else{
-        getElementById('company').className = " ";
-    }
-  }
+   const activePage = window.location.pathname;
+   const navLinks = document.querySelectorAll('nav a').forEach(link => {
+      if (link.href.includes(`${activePage}`)) {
+         link.classList.add('active');
+         console.log(link);
+      }
+   })
