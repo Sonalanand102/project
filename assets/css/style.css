@@ -156,9 +156,9 @@ font-family: 'Poppins', sans-serif; */
     margin-right : 100px;
     padding-top : 80px;
     padding-bottom : 80px;
-    background-image : url("../images/Group 71359.png");
+    background-image : url("../images/Group 71739.png");
     background-repeat: no-repeat;
-    background-size : 100vw 100vh;
+    background-size : 100vw 70vh;
     /* background-position-y : -30vh; */
 
 }
@@ -324,8 +324,6 @@ font-family: 'Poppins', sans-serif; */
     color : white!important;
 }
 
-
-
 .key-sector-desc, .our-brand-desc, .our-projects-desc, .resources-desc{
     text-align : center;
 }
@@ -433,7 +431,7 @@ font-family: 'Poppins', sans-serif; */
     width : 10px;
 }
 
-.brands,.contact-us-page,.sectors{
+.brands,.contact-us-page,.sectors,.resources-page{
     background-image : url("../images/abstract-blue-geometric-shapes-background.png");
     background-repeat : repeat;
     background-position: center;
@@ -441,10 +439,10 @@ font-family: 'Poppins', sans-serif; */
     padding-top : 100px;
 }
 .our-brands{
-    background-image : url("../images/Group 71418.png"),url("../images/Group 70888.png");
+    background-image : url("../images/Group 71739.png"),url("../images/Group 70888.png");
     background-repeat: no-repeat;
-    background-size : 100vw 80vh,100vw 150px;
-    background-position-y : 0px,270px;
+    background-size : 100vw 60vh,100vw 150px;
+    background-position-y : 100px,270px;
 
 }
 
@@ -690,7 +688,14 @@ font-family: 'Poppins', sans-serif; */
     margin-left : 20px;
     height : 12px;
 }
+.solutions-page{
+    background-image : url("../images/abstract-blue-geometric-shapes-background.png");
+    background-repeat : repeat;
+    background-position: center;
+    background-size: 100vw 150vh;
+    padding-top : 100px;
 
+}
 .our-solutions{
     display : flex;
     margin-left : 100px;
