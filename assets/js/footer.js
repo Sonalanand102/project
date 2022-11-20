@@ -53,28 +53,41 @@ document.write(`
 <!-- Footer Section ends -->
 
 <script src="assets/js/script.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
+<!-- Initialize Swiper -->
 <script>
-const swiper = new Swiper('.swiper', {
-    // Optional parameters
-    direction: 'horizontal',
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 4,
+    slidesPerGroup: 4,
     loop: true,
-  
-    // If we need pagination
+    // loopFillGroupWithBlank: true,
+    // autoplay: {
+    //     delay: 2500,
+    //     disableOnInteraction: false,
+    //   },
     pagination: {
-      el: '.swiper-pagination',
+      el: ".swiper-pagination",
+      clickable: true,
     },
-  
-    // Navigation arrows
     navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+      nextEl: ".project-next-btn",
+      prevEl: ".project-prev-btn",
     },
-  
-    // And if we need scrollbar
-    scrollbar: {
-      el: '.swiper-scrollbar',
+    breakpoints: {
+      400: {
+        slidesPerView: 1,
+        slidesPerGroup: 1,
+      },
+      768: {
+        slidesPerView: 2,
+        slidesPerGroup: 2,
+      },
+      1024: {
+        slidesPerView: 4,
+        slidesPerGroup: 4,
+      },
     },
   });
 </script>

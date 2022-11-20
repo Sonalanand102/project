@@ -19,6 +19,7 @@ font-family: 'Poppins', sans-serif; */
 #click {
     display : none;
 }
+
 /* Navigation starts */
 .navbar{
     height : 86px;
@@ -28,8 +29,6 @@ font-family: 'Poppins', sans-serif; */
     padding-right : 150px;
     opcity : 0.9;
     align-items : center;
-    /* background-color : red; */
-    
 }
 
 .logo img{
@@ -52,8 +51,7 @@ font-family: 'Poppins', sans-serif; */
     padding-left : 50px;
 }
 
-.menu ul li a{
-    
+.menu ul li a{ 
     text-decoration: none;
     color : #111;
 }
@@ -80,31 +78,54 @@ font-family: 'Poppins', sans-serif; */
 
 /* Navigation ends */
 
-
 .background_image{
     color : white;
     height : 90vh;
-    background-image : url("../images/man-recording-studio-music-production.png"), url("../images/replicate-prediction-t7ja4qpvlnb3tidbmqsoufghra.png");
+    background-image : linear-gradient(to right, black, transparent), url("../images/replicate-prediction-t7ja4qpvlnb3tidbmqsoufghra.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* align-items : center; */
 }
 
 .background_image_crousel{
     color : white;
     height : 60vh;
-    background-image : url("../images/man-recording-studio-music-production.png"),url("../images/replicate-prediction-t7ja4qpvlnb3tidbmqsoufghra.png");
+    background-image : linear-gradient(to right, black, transparent),url("../images/replicate-prediction-t7ja4qpvlnb3tidbmqsoufghra.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* margin-bottom : 50px; */
+}
+
+.brand-page-background{
+    color : white;
+    height : 60vh;
+    background-image : linear-gradient(to right, black, transparent),url("../images/Group 71718.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.solution_background_image_crousel{
+    color : white;
+    height : 60vh;
+    background-image : url("../images/Group 71760.png"),linear-gradient(to right, black, transparent, black),url("../images/abstract-app-social-web-service-object.png");
+    background-position: bottom left,center,center;
+    background-repeat: no-repeat;
+    background-size: 400px 200px,cover,cover;
+    background-position-x : 100px, 0px, 0px;
+    background-position-y : 27vh, 0px, 0px;
+}
+
+.solution_background_image_crousel div h1{
+    padding-top: 20vh;
+    padding-right: 20px;
+    text-align : end;
 }
 
 .img-content{
     width : 35vw;
     padding-top : 20vh;
-    padding-left : 200px;
+    padding-left : 100px;
 }
 
 .img-content h1{
@@ -142,14 +163,12 @@ font-family: 'Poppins', sans-serif; */
 
 .img-content a:hover, .what-we-do-btn a:hover{
     background-color : #F72E30;
-    /* opacity : 0.9; */
     color : white;
     border : none;
 }
 
 
 .what-we-do{
-    
     display : flex;
     justify-content : space-between;
     margin-left : 200px;
@@ -159,24 +178,14 @@ font-family: 'Poppins', sans-serif; */
     background-image : url("../images/Group 71739.png");
     background-repeat: no-repeat;
     background-size : 100vw 70vh;
-    /* background-position-y : -30vh; */
-
 }
+
 .section{
     background-image : url("../images/Group 71368.png");
     background-repeat: no-repeat;
     background-size : 100vw 200vh;
-    /* background-position-y : 100vh; */
 }
 
-.section-2{
-    background-image : url("../images/Group 71484.png"),url("../images/gray-abstract-wireframe-technology-background.png"),url("../images/Group 71415.png");
-    background-repeat: no-repeat;
-    background-size : 250px 200px,100vw 130vh,100vw 130vh;
-    background-position : left bottom,left top,left top;
-    background-position-y : 100vh, 0px, 0px;
-    background-position-x : -30px, 0px, 0px;
-}
 .what-we-do-desc{
     width : 40vw;
     margin-top : 100px;
@@ -209,6 +218,10 @@ font-family: 'Poppins', sans-serif; */
     padding-bottom : 10px;
     padding-left : 36px;
     padding-right : 36px;
+}
+
+.what-we-do-swiper{
+    width : 40vw!important;
 }
 
 .what-we-do-img img{
@@ -253,31 +266,70 @@ font-family: 'Poppins', sans-serif; */
     background-color : white;
     margin : 20px;
     padding : 10px;
-    /* border : 2px solid red; */
     border-radius : 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.service-card-2 .service-card-text{
+
+
+.service-card-1:hover .service-card-text,.service-card-2:hover .service-card-text,.service-card-3:hover .service-card-text{
     color : white!important;
     line-height : 1.6!important;
     font-size : 18px;
 }
 
-.service-card-2 .service-card-btn{
+.service-card-1:hover .service-card-btn,
+.service-card-2:hover .service-card-btn,
+.service-card-3:hover .service-card-btn{
     border : 2px solid white;
 }
 
-.service-card-2{
+.service-card-1:hover .service-card-btn a,
+.service-card-2:hover .service-card-btn a,
+.service-card-3:hover .service-card-btn a{
+    color : #fff;
+}
+
+
+.service-card-1:hover,
+.service-card-2:hover,
+.service-card-3:hover{
     color : white!important;
     background-color : #F72E30;
 }
 
-.service-card-img{
+.service-card-1:hover .service-card-img {
+    align-items : center;
+}
+
+
+.service-card-img {
+    position: relative;
+    align-items : center;
+}
+
+.service-card-img img{
     height : 130px;
     width : 130px;
     margin-bottom : 20px;
     margin-top : 16px;
+}
+
+.service-card-img img.image-hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 29%;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .2s;
+}
+
+.service-card-1:hover .service-card-img img.image-hover, 
+.service-card-2:hover .service-card-img img.image-hover, 
+.service-card-3:hover .service-card-img img.image-hover {
+    opacity: 1;
 }
 
 .service-card-title{
@@ -285,17 +337,14 @@ font-family: 'Poppins', sans-serif; */
     font-weight : bold;
     margin-bottom : 10px;
     font-family: 'Poppins', sans-serif;
-
 }
 
 .service-card-text{
-    font-size : 20px;
-    /* word-spacing : 2px; */
+    font-size : 18px;
     color : #707070;
     line-height : 1.5;
     margin-bottom : 40px;
     font-family: 'Poppins-light', sans-serif;
-
 }
 
 .service-card-btn, .card-btn, .brand-card-btn{
@@ -308,20 +357,21 @@ font-family: 'Poppins', sans-serif; */
     padding-right : 24px;
 }
 
+.service-card-btn:hover, .card-btn:hover, .brand-card-btn:hover{
+    border : none;
+    background-color : #F72E30;
+}
+
 .service-card-btn a, .card-btn a, .brand-card-btn a{
     text-decoration : none;
     color : black;
-    margin-right : 2px;
-    
+    margin-right : 2px;  
 }
 
-.service-card-btn img{
-    height : 12px;
-    width : 12px;
-}
-
-.btn-white a{
-    color : white!important;
+.service-card-btn:hover a, .card-btn:hover a, .brand-card-btn:hover a{
+    text-decoration : none;
+    color : white;
+    margin-right : 2px;   
 }
 
 .key-sector-desc, .our-brand-desc, .our-projects-desc, .resources-desc{
@@ -378,14 +428,16 @@ font-family: 'Poppins', sans-serif; */
     justify-content : space-around;
     margin-left : 200px;
     margin-right : 100px;
-    margin-bottom : 50px;
+    margin-bottom : 80px;
 }
 
 .key-subsector-img img{
     height : 65vh;
-    width : 45vw;
+    width : 40vw;
 }
-
+.key-subsector-desc{
+    padding-left : 50px;
+}
 .key-subsector-title{
     font-family: 'Poppins-bold', sans-serif;
     margin-top : 30px;
@@ -398,7 +450,6 @@ font-family: 'Poppins', sans-serif; */
     font-family: 'Poppins-regular', sans-serif;
     word-spacing : 1px;
     line-height : 1.5;
-    margin-right : 30px;
     margin-bottom : 50px;
 }
 
@@ -419,12 +470,15 @@ font-family: 'Poppins', sans-serif; */
     margin-right : 2px;
 }
 
-.key-subsector-btn:hover{
+.key-subsector-btn:hover {
     background-color : #F72E30;
     color : white!important;
     border : none;
 }
 
+.key-subsector-btn:hover a{
+    color : white!important;
+}
 
 .key-subsector-btn img{
     height : 10px;
@@ -438,12 +492,12 @@ font-family: 'Poppins', sans-serif; */
     background-size: 100vw 150vh;
     padding-top : 100px;
 }
+
 .our-brands{
     background-image : url("../images/Group 71739.png"),url("../images/Group 70888.png");
     background-repeat: no-repeat;
     background-size : 100vw 60vh,100vw 150px;
     background-position-y : 100px,270px;
-
 }
 
 .our-brand-cards{
@@ -457,8 +511,6 @@ font-family: 'Poppins', sans-serif; */
 
 .our-brand-card{
     border : 2px solid #F72E30;
-    /* height : 160px; */
-    /* width : 200px; */
     padding-left : 10px;
     padding-right : 10px;
     padding-top : 20px;
@@ -467,6 +519,7 @@ font-family: 'Poppins', sans-serif; */
     background-color : white;
     margin-bottom : 50px;
 }
+
 .our-brand-image img{
     height : 250px;
     width : 250px;
@@ -479,11 +532,14 @@ font-family: 'Poppins', sans-serif; */
     border-radius : 5px;
     padding-top : 5px;
     padding-bottom : 5px;
-    /* padding-left : 5px;
-    padding-right : 5px; */
     font-weight : bold;
     margin-left : 24px;
     margin-right : 24px;
+}
+
+.our-brand-name:hover{
+    border : none;
+    background-color : #F72E30;
 }
 
 .our-brand-name a{
@@ -491,27 +547,62 @@ font-family: 'Poppins', sans-serif; */
     color : #000;
 }
 
-.our-projects-subsection {
-  width: 100vw;
-  height: 250px;
+.our-brand-name:hover a{
+    color : white;
 }
 
-.swiper-button-prev{
-    /* left: 80px !important; */
-}
-.our-project-cards{
+.our-projects-subsection {
+    position : relative;
     background-image : url("../images/Group 70888.png");
     background-repeat: no-repeat;
     background-size : 100vw 100px;
-    background-position-y : 75px;
-    display : flex;
-    justify-content : center;    
+    background-position-y : 73px;
+    margin-bottom : 80px;
+}
+        
+.swiper {
+    width: 80%;
+    height: 35%;
+    position: revert;
+    padding : 10px 100px;
+}
+  
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+
+/* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
 }
 
-.our-project-card img{
-    width : 200px;
-    height : 200px;
-    margin : 10px 50px;
+
+.product-img img {
+    display: block;
+    width: 200px;
+    height: 200px;
+    /* margin : 10px 30px; */
+}
+  
+.swiper-button-next, .swiper-button-prev {
+    width: calc(var(--swiper-navigation-size)/ 40 * 40)!important;
+}
+
+.project-next-btn{
+    right : 50px!important;
+}
+.project-prev-btn{
+    left : 50px!important;
 }
 
 .quote{ 
@@ -519,43 +610,82 @@ font-family: 'Poppins', sans-serif; */
     margin-bottom : 50px;
 }
 
+.testimonial-swiper-container{
+    position : relative;
+    width : 100%;
+}
+
 .testimonial-cards{
     display : flex;
-    justify-content : center;
     padding-bottom : 80px; 
 }
+
 .testimonial-card{
     display : flex;
-    justify-content : center;
-    /* margin-left : 50px;
-    margin-right : 50px; */
+    text-align : start; 
     background-color : #F4232D;
-    padding-left : 10px;
-    padding-top : 1px;
-    padding-bottom : 1px;
     color : #fff;
-    font-size : 20px;
+    font-size : 16px;
     font-family : 'Poppins', sans-serif;
-    width : 50vw;
 }
 
 .testimonial-swipper{
-    height : 361px;
-    width : 80vw;
+    height : 360px;
+    width : 55vw;
     margin-bottom : 80px;
 }
+
 .testimonial-text{
     margin-left : 50px;
     margin-right : 50px;
-    margin-top : 50px;
 }
 
 .testimonial-statement{
     margin-bottom : 50px;
 }
+
 .testimonial-img img{
+    position : relative;
+    left : 10px;
     width : 300px;
     height : 360;
+}
+
+.testimonial-swiper-container:before{
+    filter : brightness(0.5);
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 150px;
+    height: 100%;
+    /* opacity: 0.8; */
+    background-image : url("../images/download.png");
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+    z-index : 10;
+    margin-left : 150px;
+}
+
+.testimonial-swiper-container:after{
+    filter : brightness(0.5);
+    content: ' ';
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 150px;
+    height: 100%;
+    /* opacity: 0.8; */
+    background-image : url("../images/95f8dd19ab4e14de6ddf5d81085cd77c.png");
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+    z-index : 8;
+    margin-right : 150px;
+
 }
 
 .blogs{
@@ -570,7 +700,6 @@ font-family: 'Poppins', sans-serif; */
     background-color : white;
     text-align : center;
     margin-right : 50px;
-    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 .blog-1-desc{
@@ -607,12 +736,10 @@ font-family: 'Poppins', sans-serif; */
 .blog-2, .blog-3{
     display : flex;
     background-color : white;  
-    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);             */
 }
 
 .blog-img img{
     height : 37vh;
-
 }
 
 .blog-desc{
@@ -646,6 +773,7 @@ font-family: 'Poppins', sans-serif; */
     border-radius : 5px;
     padding : 10px;
 }
+
 .blog-card-img img{
     width : 300px;
 }
@@ -655,6 +783,7 @@ font-family: 'Poppins', sans-serif; */
     font-family : 'Roboto', sans-serif;
     font-size : 16px;
 }
+
 .blog-card-posted-date img{
     margin-top : 10px;
     margin-right : 5px;
@@ -705,7 +834,7 @@ font-family: 'Poppins', sans-serif; */
 
 .our-solution-desc{
     width : 60vw;
-    margin-top : 200px;
+    margin-top : 0px;
 }
 
 .our-solution-cards-1-section{
@@ -725,9 +854,6 @@ font-family: 'Poppins', sans-serif; */
     width : 300px;     
 }
 
-/* .card-btn{
-    margin-bottom : 40px;
-} */
 .card-img img{
     width : 130px;
     height : 130px;
@@ -884,7 +1010,6 @@ font-family: 'Poppins', sans-serif; */
     font-family: 'Lexend', sans-serif;
     padding-bottom : 80px;
     padding-top : 50px;
-    
     background-image : url("../images/gray-abstract-wireframe-technology-background.png");
     background-repeat: no-repeat;
     background-size : 100vw 130vh;
@@ -905,18 +1030,14 @@ font-family: 'Poppins', sans-serif; */
 .our-solution-gallery{
     display : flex;
     justify-content : space-between;
-    margin-left : 150px;
-    margin-right : 150px;
+    margin-left : 100px;
+    margin-right : 100px;
     padding-bottom : 50px;
 }
 
 .img img{
-    width : 350px;
-    /* height : 450px; */
+    width : 28vw;
 }
-
-
-
 
 .experience-cards{
     display : flex;
@@ -926,7 +1047,6 @@ font-family: 'Poppins', sans-serif; */
 }
 
 .experience-cards div img{
-    /* height: 350px; */
    width: 400px;
    margin-right : 20px;
 
@@ -974,13 +1094,13 @@ font-family: 'Poppins', sans-serif; */
     padding-right : 25px;
 }
 
-
 .capabilities-cards div img {
     margin-top : 50px;
     margin-top : 50px;
     height : 80px;
     width : 80px;
 }
+
 .capabilities-card-review{
     background-color : #111;
     border : 2px solid #111;
@@ -1011,10 +1131,8 @@ font-family: 'Poppins', sans-serif; */
 
 }
 
-
 .motivation-card{
     background-color : #111;
-    /* margin-bottom : 50px; */
     color : #fff;
     display : flex;
     justify-content : space-between;
@@ -1028,11 +1146,9 @@ font-family: 'Poppins', sans-serif; */
 
 .motivation-card img {
     height : 350px;
-
 }
 
 .motivation-card div{
-    /* width : 50vw; */
     font-size : 18px;
     margin-top : 85px;
     margin-right : 200px;
@@ -1046,6 +1162,7 @@ font-family: 'Poppins', sans-serif; */
     background-repeat: repeat;
     background-size: cover;
 }
+
 .how-we-do{
     text-align : center;
     font-family: 'Lexend-bold', sans-serif;
@@ -1145,7 +1262,7 @@ font-family: 'Poppins', sans-serif; */
     margin-right : 100px;
 }
 
-.subsector-entertainment, .subsector-corporate, .subsector-hospitality, .subsector-leisure{
+.subsector{
     display : flex;
     justify-content : space-between;
     margin-bottom : 50px;
@@ -1154,30 +1271,12 @@ font-family: 'Poppins', sans-serif; */
 .subsector-img img{
     height : 60vh;
     width : 42vw;
+
 }
 
-.subsector-leisure-desc, .subsector-corporate-desc{
-    margin-left : 100px;
-}
-
-.subsector-entertainment-desc, .subsector-hospitality-desc{
+.subsector-desc{
     margin-right : 100px;
-}
-
-.subsector-leisure-desc{
-    margin-top : 50px;
-} 
-
-.subsector-corporate-desc{
-    margin-top : -10px;
-
-}
-.subsector-entertainment-desc{
     margin-top : 40px;
-
-}
-.subsector-hospitality-desc{
-    margin-top : 30px;
 }
 
 .see-more-sector{
@@ -1196,7 +1295,8 @@ font-family: 'Poppins', sans-serif; */
 
 .btn:hover, .our-solution-btn:hover {
     background-color: #F72E30;
-    border : none;  
+    border : none; 
+    color : white; 
 }
 
 
@@ -1204,7 +1304,11 @@ font-family: 'Poppins', sans-serif; */
     text-decoration : none;
     color : black;
     font-family :'Montserrat', sans-serif;
-    /* font-size : 16px; */
+    margin-right : 5px;
+}
+
+.btn:hover a, .our-solution-btn:hover a{
+    color : white;
 }
 
 .subsector-title, .our-solution-title{
@@ -1233,16 +1337,11 @@ font-family: 'Poppins', sans-serif; */
     text-align : center;
     color : white;
     font-family : 'Lexend-bold', sans-serif;
-    /* margin-bottom : 50px; */
 }
 
 .cover_img h1{
     padding-top : 40vh;
 }
-
-/* .home{
-    background-color : #f0f0f0;
-} */
 
 .get-in-touch{
     text-align : center;
@@ -1294,7 +1393,7 @@ font-family: 'Poppins', sans-serif; */
 
 .contactus-button{
     text-align : center;
-    
+    margin-top : 50px;
 }
 
 form{
@@ -1305,7 +1404,7 @@ form{
 }
 .contact-form{
     display : flex;
-    justify-content : space-between;
+    justify-content : space-around;
     margin-bottom : 20px;
     font-family : 'Lexend', sans-serif;
     
@@ -1340,6 +1439,9 @@ textarea{
     margin-top : 10px;
 }
 
+.auxiable-india-map{
+    width : 30vw;
+}
 .message-section{
     margin-top : 50px;
 }
@@ -1375,12 +1477,6 @@ textarea{
     margin-top : 25px;
 
 }
-
-
-/* .footer-section1 img{
-    height : 100px;
-    width : 50px;
-} */
 
 .footer_content{
     width : 75%;

@@ -11,7 +11,7 @@ document.write(`
     <link rel="stylesheet" href="assets/css/mobileView.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 
-    <title>Document</title>
+    <title>Sound & Visual Solutions</title>
 </head>
 <body>
 
@@ -34,11 +34,11 @@ document.write(`
         <ul>
             <li class="home-section"><a   href="index.html">Home</a></li>
             <li class="company"><a  href="company.html">Company</a></li>
-            <li class="solution"><a  href="solution.html">Solution</a></li>
-            <li class="brand"><a  href="brand.html">Brand</a></li>
-            <li class="sector"><a  href="sector.html">Sector</a></li>
+            <li class="solution"><a  href="solution.html">Solutions</a></li>
+            <li class="brand"><a  href="brand.html">Brands</a></li>
+            <li class="sector"><a  href="sector.html">Industries</a></li>
             <li class="resources"><a href="resources.html">Resources</a></li>
-            <li class="contactus"><a href="contactUs.html">Contact Us</a></li>
+            <li class="contactus"><a href="contactUs.html">Contact US</a></li>
         </ul>
     </div>
 
