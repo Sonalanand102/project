@@ -423,14 +423,26 @@ font-family: 'Poppins', sans-serif; */
     text-decoration-color : #F72E30!important;
 }
 
+
+.key-subsectors{
+    /* display : none; */
+}
 .key-subsector{
     display : flex;
     justify-content : space-around;
+    
     margin-left : 200px;
     margin-right : 100px;
     margin-bottom : 80px;
 }
 
+#entertainment-subsector, #education-subsector{
+    display : none;
+}
+
+.display{
+    display:block;
+}
 .key-subsector-img img{
     height : 65vh;
     width : 40vw;
@@ -661,7 +673,7 @@ font-family: 'Poppins', sans-serif; */
     width: 150px;
     height: 100%;
     /* opacity: 0.8; */
-    background-image : url("../images/download.png");
+    background-image : url("../images/young-indian-family-happy-kid-outdoors-39592517.png");
     background-repeat: no-repeat;
     background-position: 50% 0;
     background-size: cover;
@@ -679,7 +691,7 @@ font-family: 'Poppins', sans-serif; */
     width: 150px;
     height: 100%;
     /* opacity: 0.8; */
-    background-image : url("../images/95f8dd19ab4e14de6ddf5d81085cd77c.png");
+    background-image : url("../images/channels4_profile.png");
     background-repeat: no-repeat;
     background-position: 50% 0;
     background-size: cover;
