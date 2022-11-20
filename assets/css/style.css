@@ -401,12 +401,8 @@ font-family: 'Poppins', sans-serif; */
     justify-content : center;
 }
 
-.key-sector-list ul li{
+.key-sector-list ul li {
     list-style-type : none;
-    
-}
-
-.key-sector-list ul li a{
     font-family: 'Poppins-regular', sans-serif;
     text-decoration : none;
     color : #707070;
@@ -414,9 +410,10 @@ font-family: 'Poppins', sans-serif; */
     margin-right : 20px;
     font-size : 18px;
     padding : 10px;
+    cursor : pointer;
 }
 
-.key-sector-active-list a{
+.key-sector-active-list {
     color : black!important;
     text-decoration: underline!important;
     text-underline-offset: 10px!important;

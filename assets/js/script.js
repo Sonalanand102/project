@@ -6,3 +6,7 @@
          console.log(link);
       }
    })
+
+   const industriesMenu = document.querySelector('#entertainment-link').addEventListener('click', () => {
+      document.querySelector('#entertainment-subsector').classList.add('display');
+      });
